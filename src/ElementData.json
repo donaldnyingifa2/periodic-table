@@ -1,0 +1,26 @@
+{
+  "H": {
+      "name": "Hydrogen",
+      "number": 1,
+      "symbol": "H",
+      "row": 1,
+      "col": 1,
+      "category": "nonmetal"
+  },
+  "He": {
+      "name": "Helium",
+      "number": 2,
+      "symbol": "He",
+      "row": 1,
+      "col": 18,
+      "category": "noble gas"
+  },
+  "Li": {
+      "name": "Lithium",
+      "number": 3,
+      "symbol": "Li",
+      "row": 2,
+      "col": 1,
+      "category": "alkali metal"
+  }
+}

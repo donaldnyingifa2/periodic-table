@@ -1,0 +1,31 @@
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr); /* 18 columns for the periodic table */
+  grid-gap: 5px;  /* Adjust spacing as needed */
+  width: 80%; /* Adjust width as needed */
+  margin: 20px auto; /* Center the table */
+  border: 1px solid black; /* Add a border (optional) */
+  padding: 10px;
+}
+
+.element {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Adjust font size */
+}
+
+/* Style different categories - example: */
+.element.alkali-metal { background-color: lightblue; }
+.element.noble-gas { background-color: lightgreen; }
+/* ... add styling for other categories */
+
+
+.game-container {
+  text-align: center; /* Center the game elements */
+}
+
+.game-over {
+  margin-top: 20px;
+}
